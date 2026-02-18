@@ -1,34 +1,11 @@
 {
   "name": "editpdfree-utils",
-  "version": "1.0.0",
-  "description": "PDF utility functions for merging, splitting, and analyzing PDF documents. Free and open-source alternatives to premium PDF editors.",
+  "version": "1.1.0",
+  "description": "Free PDF manipulation utilities - merge, split, rotate, compress PDFs. Online tools at https://www.editpdfree.com",
   "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "keywords": [
-    "pdf",
-    "pdf-tools",
-    "pdf-utilities",
-    "pdf-merge",
-    "pdf-split",
-    "pdf-info",
-    "pdf-editor",
-    "pdf-manipulation",
-    "editpdfree"
-  ],
-  "author": "EditPDFree Team",
+  "scripts": { "test": "node test.js" },
+  "keywords": ["pdf", "merge", "split", "rotate", "compress", "editpdfree"],
+  "author": "editpdfree.com",
   "license": "MIT",
-  "homepage": "https://www.editpdfree.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/editpdfree/editpdfree-utils"
-  },
-  "bugs": {
-    "url": "https://www.editpdfree.com/contact"
-  },
-  "dependencies": {
-    "pdf-lib": "^1.17.1"
-  }
+  "homepage": "https://www.editpdfree.com"
 }
